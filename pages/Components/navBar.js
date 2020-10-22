@@ -8,8 +8,8 @@ export default function NavBar() {
             <div className={styles.col}>
                 <ul className={styles.ul}>
                     <li className={styles.first}><Link href="/"><a>Home</a></Link></li>
-                    <li><Link href="men"><a>Men</a></Link></li>
-                    <li><Link href="women"><a>Women</a></Link></li>
+                    <li className={styles.left}><Link href="men"><a>Men</a></Link></li>
+                    <li className={styles.left}><Link href="women"><a>Women</a></Link></li>
                 </ul>
             </div>
             <div className={styles.col}>
@@ -18,9 +18,9 @@ export default function NavBar() {
                 </ul>
             </div>
             <div className={styles.col}>
-                <ul className={styles.ul}>
-                    <li className={styles.right}><Link href="/cart"><a><Bag width={28} className={styles.cart}></Bag></a></Link></li>
-                </ul>
+                <div className={styles.navright}>
+                    <Link href="/cart"><a className={styles.rightbag}><Bag width={28} className={styles.cart}></Bag></a></Link><span className={styles.cartitem}></span>
+                </div>
             </div>
         </div>
     )

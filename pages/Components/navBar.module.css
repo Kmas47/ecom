@@ -15,20 +15,17 @@
     display: block;
 }
 
-.ul li.first {
-    display: inline-block;
-    margin-left: 10%;
-}
-
 .ul li {
     display: inline-block;
     width: 20%;
     text-decoration: #3D3D3D;
-    text-align: center;
+    float: left;
     block-size: auto;
 }
 
 .ul li.tjs {
+    margin-left: 20px;
+    padding-left: 100px;
     width: max-content;
 }
 
@@ -36,10 +33,10 @@ div.col a:hover {
     color: orangered;
 }
 
-li.right {
-    padding-top: 0px;
-}
-
 .cart path:hover {
     fill: orangered;
+}
+
+a.rightbag {
+    padding-left: 100px;
 }

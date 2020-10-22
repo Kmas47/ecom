@@ -16,8 +16,8 @@
 }
 
 .ul li {
-    display: inline-block;
-    width: 20%;
+    display: inline;
+    width: 22%;
     text-decoration: #3D3D3D;
     float: left;
     block-size: auto;

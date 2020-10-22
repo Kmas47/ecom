@@ -1,0 +1,45 @@
+.navBar {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 1px 4px 0px gray;
+    height: 60px;
+}
+
+.col {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+.ul {
+    display: block;
+}
+
+.ul li.first {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.ul li {
+    display: inline-block;
+    width: 20%;
+    text-decoration: #3D3D3D;
+    text-align: center;
+    block-size: auto;
+}
+
+.ul li.tjs {
+    width: max-content;
+}
+
+div.col a:hover {
+    color: orangered;
+}
+
+li.right {
+    padding-top: 0px;
+}
+
+.cart path:hover {
+    fill: orangered;
+}

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from './navBar.module.css'
+import styles from './home.module.css'
 import Bag from '../../public/bag1.svg'
 
 export default function NavBar() {
